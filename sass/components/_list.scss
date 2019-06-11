@@ -1,0 +1,98 @@
+.list
+{
+        &__item
+        {
+                text-decoration: none;
+                list-style: none;
+                list-style-type: none;
+                line-height: 3rem;  
+
+
+                &--menulist
+                {
+                        color:#616161;
+                        text-transform: uppercase;
+                        padding: 3rem;
+                        font-size: 13px;
+                        line-height: 4.3rem;
+                        font-weight: 700;
+
+
+                        & li:hover{
+                                cursor: pointer;
+                                color: #1976D2;
+                        }
+                }
+                
+
+        }
+        
+
+        
+}
+.list--links li
+{
+   display: inline;
+   a 
+   {
+        color: $color_links;
+        text-decoration: none;
+        text-transform: capitalize;
+   }
+  
+}
+
+.list--social_dispaly li
+        {
+            display: inline;
+        }
+
+
+.list--dot_icon li  
+        {
+           background-color: $color_second;
+           width: 6rem;
+           height:6rem;
+           border-radius: 50%;
+           margin-top: 7rem;
+           font-size: 15px;
+           text-align: center;
+           
+
+           h1 
+           {
+                 line-height: 6rem;
+                   
+           }
+                
+        }
+.list--dot_icon li i 
+{
+        font-size:30px; 
+        line-height: 6rem;
+
+}
+
+.list--progress_bar li
+{
+        line-height: 3.5rem;
+        text-transform: capitalize;
+        list-style: none;
+} 
+
+// .list--tabs_protfolios li  button
+// {
+     
+//      float: left;
+//      color: #555454;
+//      font-size: 16px;
+//      text-transform: uppercase;
+//      margin-left: 0.5rem;
+//      background-color: transparent;
+//      border-color: transparent;
+//      width: 9rem;
+//      height: 4rem;
+
+     
+     
+// }

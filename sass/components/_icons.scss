@@ -1,0 +1,47 @@
+
+////////////////////////////////////////////////////
+.icon
+        {
+            height: 11px;
+            width: 11px;
+            border-radius: 50%;
+            color: aliceblue;
+            text-align: center;
+            padding: 1.3rem;
+            margin-left: 1rem;
+            font-size: 180%;
+            margin-left: 0.7rem;
+            box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+            
+            &:hover
+            {
+                box-shadow:$shadow;
+                cursor: $cursor_hover;
+            }
+        
+            &--social_facebook
+            {
+                background-color: $color_face;
+            }
+
+            &--social_google
+            {
+                background-color: $color_google;
+            }
+
+            &--social_twitter
+            {
+                background-color: $color_twitter;
+            }
+
+            &--social_linked
+            {
+                background-color: $color_linked;
+            }
+
+            &--social_wifi  //.icon icon--social_wifi
+            {
+                background-color: $color_wifi;
+            }
+        }
+/////////////////////////////////////////////////////////////////////

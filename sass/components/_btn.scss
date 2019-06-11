@@ -1,0 +1,55 @@
+.btn 
+{
+    background-color: $color_second;
+    color: $color_first;
+    text-align: center;
+    text-transform: uppercase;
+    border: 1px solid transparent;
+    border-radius: 0.3rem;
+    font-size: 14px;
+    font-weight: 500;
+    margin-left: 1.5rem;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    text-shadow: $shadow_text;
+    padding: 1rem;
+
+
+    
+
+    &:hover
+    {
+        box-shadow:$shadow;
+        cursor: $cursor_hover;
+        background-color: #05985A;
+    }
+
+    &--dawonload
+    {
+            width: 18rem;
+            height: 3.5rem;
+    
+    }
+    
+    &--contact
+    {
+        width: 18rem;
+        height: 3.5rem;
+    }
+
+    &--starter
+    {
+        border:2px solid white;
+        border-radius: 0;
+        padding: 0.5rem;
+        margin-top: 3rem;
+        text-transform: uppercase;
+
+    }
+    &--send
+    {
+        margin-top: 2rem;
+       padding-left: 3rem;
+       padding-right: 3rem;
+    }
+
+}

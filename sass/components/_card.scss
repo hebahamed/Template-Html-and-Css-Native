@@ -1,0 +1,49 @@
+.card
+{
+    width: 30%;
+    color: $color_first;
+    display: grid;
+    text-align: center;
+    grid-template-rows: repeat(3,auto);
+    box-shadow: $shadow_blocks;
+    //margin-left: 1.5rem;
+    backface-visibility: hidden;
+    transition: all .4s;
+
+    
+    .price
+    {
+       background-color: $color_second;
+       color: $color_first;
+       padding-top: 5rem;
+       padding-bottom: 5rem ;
+       font-size: 55px;
+       font-style: normal;
+       //font-weight: 300;
+       width: 100%;
+      
+    }
+    .details
+    {
+        background-color:$color_first;
+        font-size: 16px;
+        line-height: 3rem;
+        color: $color_text_card;
+        padding-top: 1rem;
+
+    }
+    .part_btn
+    {
+        background-color:$color_first;
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+
+        
+    }
+
+    &:hover
+    {   
+          transform: scale(1.05);
+        box-shadow:0 10px 20px rgba(0, 0, 0, 0.4); 
+    }
+}

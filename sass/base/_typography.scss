@@ -1,0 +1,26 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+html
+{
+    font:
+    {
+        size: 62.5%;
+        family: "Raleway", sans-serif;
+    }
+    color: $color_first;
+}
+
+h1
+{
+    text-transform: capitalize;
+}
+
+body
+{
+    
+    background-color:$color_back;
+}

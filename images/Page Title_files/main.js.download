@@ -1,0 +1,7 @@
+
+var sizeArray = parseInt(prompt("please Enter Number of Persons : "));
+var name = prompt("Enter your Name : ");
+var age = prompt("Enter your age : ");
+var email = prompt("Enter your Name : ");
+
+var arrPerson=new Array(sizeArray);

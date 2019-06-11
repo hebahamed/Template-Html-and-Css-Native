@@ -1,0 +1,88 @@
+@keyframes list_dates
+{
+    0%
+    {
+        bottom: -5;
+        
+    }
+    
+    100%
+    {
+        bottom: 2rem;
+    }
+}
+
+//////////////////////////////////////////////////////////////////////////
+@keyframes animate_list
+{
+    0%
+    {
+
+    }
+    15%
+    {
+        margin-left: -15rem;
+    }
+    30%
+    {
+        margin-left: -30rem;
+    }
+    45%
+    {
+        margin-left: -45rem;
+    }
+    60%
+    {
+        margin-left: -60rem;
+    }
+   75%
+    {
+        margin-left: -75rem;
+    }
+    90%
+    {
+        margin-left: -95rem;
+    }
+    // 95%
+    // {
+    //     margin-left: -125rem;
+    // }
+    100%
+    {
+       margin-left: -125rem;
+    }
+
+}
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////
+@keyframes animate
+{
+    0%
+    {
+        
+        margin-left: -80rem;
+   
+    }
+
+    100%
+    {
+           margin-left: 0;
+       
+    }
+}
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////@keyframes animate
+@keyframes animate_menu_list
+{
+    0%
+    {
+        
+        margin-left: -23rem;
+   
+    }
+
+    100%
+    {
+           margin-left: 0;
+       
+    }
+}

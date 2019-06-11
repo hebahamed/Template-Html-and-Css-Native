@@ -1,0 +1,41 @@
+.icons_background
+{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(6,16.7%);
+    color: $color_first;
+    font-size: 15px;
+    font-weight: 400;
+    overflow: hidden;
+    text-transform: capitalize;
+    
+    .block1,.block3,.block5
+    {
+        background-color: $color_second;
+        color: $color_first;
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+        text-align: center;
+    }
+
+    .block2,.block4,.block6
+
+    {
+              background-color: $color_first;
+              color: $color_second;
+              padding-top: 2rem;
+              padding-bottom: 2rem;
+              text-align: center;
+    }
+
+       
+
+    i 
+    {
+        display: block;
+        font-size: 4.5rem;
+
+    }
+
+
+}

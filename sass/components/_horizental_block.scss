@@ -1,0 +1,25 @@
+.horizental_block
+{
+   
+    height: auto;
+    background-color:#FFFFFF;
+    margin-top: 4.5rem;
+    box-shadow: $shadow_blocks;
+    text-align: center;
+    color:$color_text;
+    padding: 3rem;
+    font-family: 'Muli', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 2rem;
+
+    hr 
+    {
+        margin-top: 4rem;
+        margin-bottom: 3rem;
+        width: 100%;
+        background-color: rgba(236, 236, 236, 0.747);
+    }
+
+
+}

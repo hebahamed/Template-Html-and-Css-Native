@@ -1,0 +1,31 @@
+.cardwhite
+{
+    background-color: $color_first;
+    background-color: $color_first;
+    color: $color_text;
+    line-height: 2.5rem;
+    font-size: 15px;
+    font-weight: 400;
+    font-family: 'Raleway', sans-serif;
+    padding: 7rem;
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+    padding-left: 3.5rem;
+   
+   
+
+    &__item
+    {
+        color: $color_links;
+        text-transform: capitalize;
+        text-decoration-line: underline;
+        
+    }
+    &__item_header
+    {
+        font-style: normal;
+        font-size: 25px;
+        font-weight: 300;
+        text-transform: uppercase;
+    }
+}

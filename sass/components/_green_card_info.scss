@@ -1,0 +1,51 @@
+.green_card_animation
+{
+    display: flex;
+    flex-wrap: nowrap;
+}
+.green_card_info
+{
+    @include green_card;
+    display: grid;
+    grid-template-rows:repeat(3,auto);
+    font-size: 15px;
+    padding: 1.5rem;
+    text-align: center;
+    
+  
+    
+    
+
+   
+
+    .image_client img
+    {
+        border-radius: 50%;
+    }
+    .pargarph_details
+    {
+        width: 90%;
+        margin: auto;
+        line-height: 2rem;
+         
+        i
+        {
+            color: $color_qotes;
+        } 
+
+    }
+
+    .btns_slider
+    {
+        padding-top: 2rem;
+        button 
+        {  
+            width: 1rem;
+            height: 1rem;
+            border-color: transparent;
+           background-color: $color_qotes;
+        }
+    }
+   
+            
+}

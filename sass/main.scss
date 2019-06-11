@@ -1,0 +1,39 @@
+@import 'abstracts/variables';
+@import 'abstracts/mixins';
+@import 'abstracts/animations';
+
+
+@import 'base/typography';
+
+
+
+@import 'components/icons';
+@import 'components/list';
+@import 'components/horizental_block';
+@import 'components/btn';
+@import 'components/heading';
+@import 'components/img_title';
+@import 'components/white_card';
+@import 'components/green_card';
+@import 'components/progress_bar';
+@import 'components/map';
+@import 'components/tabs';
+@import 'components/icons_back';
+@import 'components/list_animation';
+@import 'components/image_hover';
+@import 'components/green_card_info';
+@import 'components/card';
+@import 'components/block_card';
+@import 'components/card_white';
+@import 'components/dates_list';
+@import 'components/card_form';
+@import 'components/card_menu';
+
+
+@import 'layout/header';
+@import 'layout/container';
+@import 'layout/section_education';
+@import 'layout/section_protfolios';
+@import 'layout/section_pricing';
+@import 'layout/section_blog';
+@import 'layout/section_contact';

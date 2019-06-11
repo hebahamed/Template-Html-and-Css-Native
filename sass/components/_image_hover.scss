@@ -1,0 +1,119 @@
+.opacity_image
+{
+    width: 100%;
+    height: 100%;
+    background-color:rgba(8, 8, 8, 0.479);
+    
+}
+
+.protfolios_grid 
+{
+
+    
+    display: grid;
+    grid-template-columns:60rem 35rem;
+    gap: 2rem;
+    height: 70%;
+    overflow: hidden;
+
+    img:hover
+    {
+        transform: scale(1.1);
+        .opacity_image
+        {
+            display: block;
+        }
+
+    }
+
+    .block_protfolios1,.blockimage21
+    {
+        border: 2px solid white;
+        box-shadow: $shadow_blocks;
+        overflow: hidden;
+    }
+    
+
+    .block_protfolios1
+    {
+       
+           
+            width: 100%;
+            height: 100%;
+           // margin-left: -80rem;
+
+        
+            animation-name: animate;
+            animation-duration: 2s;
+            animation-direction: normal;
+            animation-fill-mode:forwards;
+            animation-delay: 0.5s;
+
+            img 
+            {
+                width: 100%;
+                height: 100%;
+            }
+    
+
+            @keyframes animate
+            {
+                0%
+                {
+                    
+                    margin-left: -80rem;
+               
+                }
+
+                100%
+                {
+                       margin-left: 0;
+                   
+                }
+            }
+        
+        
+        }
+
+    
+    .block_protfolios2
+ {
+       
+        width: 100%;
+        height: 100%;
+        
+       .gridprotfolios2
+       {
+        display: grid;
+        grid-template-rows: 48% 48%;
+        row-gap: 1.5rem;
+
+        img 
+        {
+            width: 100%;
+            height: 100%;
+        }
+    }
+       
+       animation-name: animate2;
+       animation-duration: 2s;
+       animation-direction: normal;
+      animation-fill-mode:forwards;
+      animation-delay:0.5s;
+
+     
+
+       @keyframes animate2 
+
+       {
+          0%
+          {
+                margin-left: 57rem;
+          }   
+          100%
+          {
+              margin-left: 0;
+          } 
+       }
+    }
+}

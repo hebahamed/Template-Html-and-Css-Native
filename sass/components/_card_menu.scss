@@ -1,0 +1,42 @@
+.card_menu
+{
+    display: grid;
+    width: 15%;
+    height: 62rem;
+    position: fixed;
+    grid-template-rows: repeat(2,auto);
+    position: absolute;
+    top: 0;
+    left: 0;
+    overflow: scroll;
+    margin-left: -23rem;
+    z-index: 5;
+    // animation-name: animate_menu_list;
+    // animation-duration: 2s;
+    // animation-direction: normal;
+    // animation-fill-mode:forwards;
+    // animation-delay: 0.5s;
+    // position: fixed;
+    .blockgreen
+    {
+        
+        background-color: #06A763;
+        padding: 3rem;
+        text-align: center;
+
+        .j_block
+        {
+            border: 2.5px solid white;
+            padding: 4rem;
+            font-size: 65px;
+            font-style: normal;
+            font-weight: 300;
+
+        }
+    }
+
+    .blockwhite
+    {
+        background-color: white;
+    }
+}
